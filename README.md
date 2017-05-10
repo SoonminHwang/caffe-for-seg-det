@@ -11,7 +11,7 @@ branch of [BVLC/caffe](https://github.com/BVLC/caffe) at commit
 
 ### Added layer from caffe for faster r-cnn
 
-    - RoI pooling Layer
+		- RoI pooling Layer
 		- Smooth L1 Layer
 		- Modified caffe.proto
 
