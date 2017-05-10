@@ -1,4 +1,4 @@
-##Caffe for Dilation Network
+## Caffe for Dilation Network & Faster R-CNN
 
 This is a fork of Caffe that support the training of dilation network
 described in [this ICLR conference
@@ -7,6 +7,14 @@ branch of [BVLC/caffe](https://github.com/BVLC/caffe) at commit
 [f28f5a](https://github.com/BVLC/caffe/commit/f28f5ae2f2453f42b5824723efc326a04dd16d85)
 (June 27, 2016). The original README of Caffe is at
 [README_caffe.md](https://github.com/fyu/caffe-dilation/blob/master/README_caffe.md).
+
+
+### Added layer from caffe for faster r-cnn
+
+    - RoI pooling Layer
+		- Smooth L1 Layer
+		- Modified caffe.proto
+
 
 ### Build
 
